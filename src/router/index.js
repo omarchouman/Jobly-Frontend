@@ -110,29 +110,29 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "NewPassword" */ "../views/NewPassword.vue"),
   },
-  // {
-  //   path: "/jobseeker/dashboard",
-  //   name: "JobSeekerDashboard",
-  //   // route level code-splitting
+  {
+    path: "/jobseeker/dashboard",
+    name: "JobSeekerDashboard",
+    // route level code-splitting
 
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(
-  //       /* webpackChunkName: "jobseeker/Dashboard" */ "../views/jobseeker/Dashboard.vue"
-  //     ),
-  //   meta: {
-  //     requiresAuth: true,
-  //   },
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "jobseeker/Dashboard" */ "../views/jobseeker/Dashboard.vue"
+      ),
+    meta: {
+      requiresAuth: true,
+    },
 
-  //   beforeEnter(to, from, next) {
-  //     if (store.getters["auth/getUser"].type === "0") {
-  //       next();
-  //       return;
-  //     }
-  //     next("/error");
-  //     return;
-  //   },
-  // },
+    beforeEnter(to, from, next) {
+      if (store.getters["auth/getUser"].type === "0") {
+        next();
+        return;
+      }
+      next("/error");
+      return;
+    },
+  },
   // {
   //   path: "/employer/dashboard",
   //   name: "EmployerDashboard",
@@ -156,29 +156,29 @@ const routes = [
   //     return;
   //   },
   // },
-  // {
-  //   path: "/jobseeker/inbox",
-  //   name: "JobSeekerInbox",
-  //   // route level code-splitting
+  {
+    path: "/jobseeker/inbox",
+    name: "JobSeekerInbox",
+    // route level code-splitting
 
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(
-  //       /* webpackChunkName: "jobseeker/Inbox" */ "../views/jobseeker/Inbox.vue"
-  //     ),
-  //   meta: {
-  //     requiresAuth: true,
-  //   },
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "jobseeker/Inbox" */ "../views/jobseeker/Inbox.vue"
+      ),
+    meta: {
+      requiresAuth: true,
+    },
 
-  //   beforeEnter(to, from, next) {
-  //     if (store.getters["auth/getUser"].type === "0") {
-  //       next();
-  //       return;
-  //     }
-  //     next("/error");
-  //     return;
-  //   },
-  // },
+    beforeEnter(to, from, next) {
+      if (store.getters["auth/getUser"].type === "0") {
+        next();
+        return;
+      }
+      next("/error");
+      return;
+    },
+  },
   // {
   //   path: "/employer/inbox",
   //   name: "EmployerInbox",
@@ -202,96 +202,96 @@ const routes = [
   //     return;
   //   },
   // },
-  // {
-  //   path: "/jobseeker/resume",
-  //   name: "JobSeekerResume",
-  //   // route level code-splitting
+  {
+    path: "/jobseeker/resume",
+    name: "JobSeekerResume",
+    // route level code-splitting
 
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(
-  //       /* webpackChunkName: "jobseeker/Inbox" */ "../views/jobseeker/Resume.vue"
-  //     ),
-  //   meta: {
-  //     requiresAuth: true,
-  //   },
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "jobseeker/Inbox" */ "../views/jobseeker/Resume.vue"
+      ),
+    meta: {
+      requiresAuth: true,
+    },
 
-  //   beforeEnter(to, from, next) {
-  //     if (store.getters["auth/getUser"].type === "0") {
-  //       next();
-  //       return;
-  //     }
-  //     next("/error");
-  //     return;
-  //   },
-  // },
-  // {
-  //   path: "/jobseeker/profile",
-  //   name: "JobSeekerProfile",
-  //   // route level code-splitting
+    beforeEnter(to, from, next) {
+      if (store.getters["auth/getUser"].type === "0") {
+        next();
+        return;
+      }
+      next("/error");
+      return;
+    },
+  },
+  {
+    path: "/jobseeker/profile",
+    name: "JobSeekerProfile",
+    // route level code-splitting
 
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(
-  //       /* webpackChunkName: "jobseeker/Profile" */ "../views/jobseeker/Profile.vue"
-  //     ),
-  //   meta: {
-  //     requiresAuth: true,
-  //   },
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "jobseeker/Profile" */ "../views/jobseeker/Profile.vue"
+      ),
+    meta: {
+      requiresAuth: true,
+    },
 
-  //   beforeEnter(to, from, next) {
-  //     if (store.getters["auth/getUser"].type === "0") {
-  //       next();
-  //       return;
-  //     }
-  //     next("/error");
-  //     return;
-  //   },
-  // },
-  // {
-  //   path: "/jobseeker/applied-jobs",
-  //   name: "JobSeekerAppliedJobs",
-  //   // route level code-splitting
+    beforeEnter(to, from, next) {
+      if (store.getters["auth/getUser"].type === "0") {
+        next();
+        return;
+      }
+      next("/error");
+      return;
+    },
+  },
+  {
+    path: "/jobseeker/applied-jobs",
+    name: "JobSeekerAppliedJobs",
+    // route level code-splitting
 
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(
-  //       /* webpackChunkName: "jobseeker/AppliedJobs" */ "../views/jobseeker/AppliedJobs.vue"
-  //     ),
-  //   meta: {
-  //     requiresAuth: true,
-  //   },
-  //   beforeEnter(to, from, next) {
-  //     if (store.getters["auth/getUser"].type === "0") {
-  //       next();
-  //       return;
-  //     }
-  //     next("/error");
-  //     return;
-  //   },
-  // },
-  // {
-  //   path: "/jobseeker/matched-jobs",
-  //   name: "JobSeekerMatchedJobs",
-  //   // route level code-splitting
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "jobseeker/AppliedJobs" */ "../views/jobseeker/AppliedJobs.vue"
+      ),
+    meta: {
+      requiresAuth: true,
+    },
+    beforeEnter(to, from, next) {
+      if (store.getters["auth/getUser"].type === "0") {
+        next();
+        return;
+      }
+      next("/error");
+      return;
+    },
+  },
+  {
+    path: "/jobseeker/matched-jobs",
+    name: "JobSeekerMatchedJobs",
+    // route level code-splitting
 
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(
-  //       /* webpackChunkName: "jobseeker/MatchedJobs" */ "../views/jobseeker/MatchedJobs.vue"
-  //     ),
-  //   meta: {
-  //     requiresAuth: true,
-  //   },
-  //   beforeEnter(to, from, next) {
-  //     if (store.getters["auth/getUser"].type === "0") {
-  //       next();
-  //       return;
-  //     }
-  //     next("/error");
-  //     return;
-  //   },
-  // },
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "jobseeker/MatchedJobs" */ "../views/jobseeker/MatchedJobs.vue"
+      ),
+    meta: {
+      requiresAuth: true,
+    },
+    beforeEnter(to, from, next) {
+      if (store.getters["auth/getUser"].type === "0") {
+        next();
+        return;
+      }
+      next("/error");
+      return;
+    },
+  },
   // {
   //   path: "/employer/profile",
   //   name: "employerProfile",
