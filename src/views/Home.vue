@@ -21,7 +21,7 @@ import FooterSection from "@/components/FooterSection.vue";
 
 export default {
   name: "Home",
-  title: "jobly - Best Online Job Portal in Nepal",
+  title: "jobly - Best Online Job Portal in Lebanon",
   mounted() {
     this.$Progress.finish();
   },
