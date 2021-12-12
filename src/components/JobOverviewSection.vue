@@ -23,7 +23,7 @@
                     <li>
                       <i class="fas fa-map-marker-alt"></i>{{ job.location }}
                     </li>
-                    <li>Rs. {{ job.salary }}</li>
+                    <li> {{ job.salary }} USD </li>
                   </ul>
                 </div>
               </div>
@@ -78,7 +78,7 @@
                   Job nature : <span>{{ job.type }}</span>
                 </li>
                 <li>
-                  Salary : <span>Rs. {{ job.salary }}</span>
+                  Salary : <span> {{ job.salary }} USD </span>
                 </li>
                 <li>
                   Application date :
