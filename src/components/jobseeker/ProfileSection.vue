@@ -90,12 +90,12 @@
                       v-model="user.gender"
                       >Female</b-form-radio
                     >
-                    <b-form-radio
+                    <!-- <b-form-radio
                       :aria-describedby="ariaDescribedby"
                       value="Others"
                       v-model="user.gender"
                       >Others</b-form-radio
-                    >
+                    > -->
                   </b-form-group>
                   
                 </div>
