@@ -5,7 +5,7 @@
         <div class="container">
           <b-navbar-brand class="navbar-brand">
             <router-link to="/">
-              <!-- <img src="/assets/white_brand.png" class="brand-img" /> -->
+              <img src="/assets/jobly-light.png" class="brand-img" />
             </router-link>
           </b-navbar-brand>
           <!-- Right aligned nav items -->
@@ -248,8 +248,8 @@ input.search-input {
   padding-left: 8px;
 }
 img.brand-img {
-  height: 50px;
-  width: 50px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
 }
 .search-bar {

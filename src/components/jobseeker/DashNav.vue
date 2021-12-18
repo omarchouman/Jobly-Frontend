@@ -13,7 +13,7 @@
         to="/jobseeker/inbox"
         class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
       >
-        <b-icon icon="chat"></b-icon>
+        <b-icon icon="chat" class="inbox-icon"></b-icon>
         Inbox
         <span class="badge badge-primary badge-pill ml-auto">{{
           dashInfo.messages
@@ -122,5 +122,8 @@ img.img-dash-jobseeker {
 }
 .upper-dash-nav {
   text-align: center;
+}
+.inbox-icon {
+  margin-right:3px;
 }
 </style>

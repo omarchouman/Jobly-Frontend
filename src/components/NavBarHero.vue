@@ -4,7 +4,7 @@
       <b-navbar toggleable="lg" type="dark" :sticky="true">
         <div class="container">
           <b-navbar-brand class="navbar-brand"> <router-link to="/">
-            <!-- <img src="/assets/white_brand.png" class="brand-img"/> -->
+            <img src="/assets/jobly-light.png" class="brand-img"/>
              </router-link
             ></b-navbar-brand>
           <!-- Right aligned nav items -->
@@ -235,7 +235,7 @@ a:hover {
   position: absolute;
 }
 .main-hero-section {
-  padding-top: 17em;
+  padding-top: 11em;
   padding-bottom: 17em;
   // background: url("/assets/intro1.jpg");
   // background: #eee;
@@ -296,8 +296,8 @@ input.search-input {
 }
 
 img.brand-img {
-    height: 50px;
-    width: 50px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 .navbar-brand a{
