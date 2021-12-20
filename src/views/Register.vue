@@ -3,7 +3,7 @@
     <NavBar />
     <CommonHeroSection
       title="Register"
-      description="register as Jobseeker or Employer"
+      description="Register as a Jobseeker or Employer"
     />
     <LoginRegisterSection formType="Register" />
     <FooterSection />

@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <NavBar />
-    <CommonHeroSection title="About" description="about jobly" />
+    <CommonHeroSection title="About" description="About Jobly" />
     <AboutSection />
     <FooterSection />
   </div>

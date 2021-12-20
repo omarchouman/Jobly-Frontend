@@ -12,7 +12,8 @@
                     <h4>About Us</h4>
                     <div class="footer-pera">
                       <p>
-                        {{ appinfo.app_slogan }}
+                        Jobly is a platform that helps connecting Jobseekers
+                        with Employers.
                       </p>
                     </div>
                   </div>

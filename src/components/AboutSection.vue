@@ -13,10 +13,10 @@
                 </div>
                 <div class="support-caption">
                   <p class="pera-top">
-                    jobly is a platform that helps to connect the Jobseekers
-                    and Employers. Jobseekers can search, view , save and apply
-                    jobs of their choice. Employers can search , view Jobseekers
-                    profile and hire them if their skill matches for ths post.
+                    Jobly is a platform that helps connecting Jobseekers
+                    with Employers. Jobseekers can search, view , save and apply
+                    for jobs of their choice. Employers can search , view Jobseeker
+                    profiles and hire them if their skill matches the skillset that the job requires.
                   </p>
                 </div>
               </div>

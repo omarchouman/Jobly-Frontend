@@ -88,7 +88,7 @@
               <!-- <img src="/assets/logowhite.png" alt='jobly-logo' width="100" height="100"/> -->
             </div>
             <h3>Still Searching ?</h3>
-            <h4>Find your approriate job</h4>
+            <h4>Find a job that suits you</h4>
             <div class="search-bar mt-5 mb-5">
               <input
                 type="text"

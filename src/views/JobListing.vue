@@ -3,7 +3,7 @@
     <NavBar />
     <CommonHeroSection
       title="Get a Job"
-      description="Find the perfect Job for you."
+      description="Find the perfect job for you."
     />
     <JobListPanel />
     <FooterSection />
