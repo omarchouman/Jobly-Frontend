@@ -130,7 +130,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label>Qualification</label>
+                    <label>Qualifications</label>
                     <textarea
                       class="form-control"
                       v-model="user.qualification"

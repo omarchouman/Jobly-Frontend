@@ -54,15 +54,15 @@
             <div class="row mt-5 mb-5">
               <div class="col-md-12">
                 <div class="jobseeker-detail">
-                  <h3 class="theme-color">Qualification</h3>
+                  <h3 class="theme-color">Qualifications</h3>
                   <p class="pt-3 pb-3">
                     {{ jobseeker.qualification }}
                   </p>
                 </div>
                 <div class="jobseeker-detail">
-                  <h3 class="theme-color">Cover</h3>
+                  <h3 class="theme-color">Cover Letter</h3>
                   <p class="pt-3 pb-3">
-                    {{ jobseeker.cover }}
+                    {{ jobseeker.cover_letter }}
                   </p>
                 </div>
               </div>
